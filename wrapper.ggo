@@ -1,0 +1,9 @@
+package "wrapper"
+version "1.2.0"
+
+option "host" H "The host address to bind to" string optional default="127.0.0.1"
+option "decrypt-port" D "The port for the decryption service" int optional default="10020"
+option "m3u8-port" M "The port for the M3U8 service" int optional default="20020"
+option "proxy" P "The proxy server to use (e.g., http://host:port)" string optional default=""
+option "login" L "Apple Music credentials (format: username:password)" string optional
+option "code-from-file" F "Read 2FA code from /data/2fa.txt instead of stdin" flag off

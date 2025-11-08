@@ -1,0 +1,64 @@
+# CMake build directory
+build/
+cmake-build-*/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+rootfs/system/bin/main_app
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.clangd/
+compile_commands.json
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/usr/local/
+node_modules/
+
+# Temp files
+*.tmp
+*.bak
+*.log
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Gengetopt generated files (wrapper.c/h are auto-generated)
+# Only ignore generated wrapper files
+#wrapper.c
+#wrapper.h
+
+# Other generated files
+*.gch
+*.pch
